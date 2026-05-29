@@ -7,8 +7,9 @@ class Email:
     headers: dict = field(default_factory=dict)
 
     date: datetime
-    sender: str
-    subect: str = ""
+    sender: str = ""
+    recipient: str = ""
+    subject: str = ""
     body: str = ""
 
     labels: Set[str] = field(default_factory=set)
