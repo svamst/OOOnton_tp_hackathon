@@ -3,11 +3,11 @@ import logging
 import time
 from collections import Counter
 
-from src import config
+import config
 
-from src.core.classes.email_parser import EmailParser
-from src.core.classes.rules_classifier import RulesClassifier
-from src.core.classes.file_manager import FileManager
+from core.classes.email_parser import EmailParser
+from core.classes.rules_classifier import RulesClassifier
+from core.classes.file_manager import FileManager
 
 
 def setup_logging():
@@ -97,5 +97,5 @@ def main():
     logging.info("")
 
 
-if name == "__main__":
+if __name__ == "__main__":
     main()
