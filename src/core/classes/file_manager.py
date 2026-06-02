@@ -1,7 +1,7 @@
 import os
 import shutil
 import logging
-from src.core.classes.email import Email
+from core.classes.email import Email
 
 
 class FileManager:

@@ -1,4 +1,4 @@
-from src.core.classes.email import Email
+from core.classes.email import Email
 import os
 import json
 import re
