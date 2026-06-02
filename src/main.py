@@ -3,11 +3,11 @@ import logging
 import time
 from collections import Counter
 
-import config
+from src import config
 
-from core.classes.email_parser import EmailParser
-from core.classes.rules_classifier import RulesClassifier
-from core.classes.file_manager import FileManager
+from src.core.classes.email_parser import EmailParser
+from src.core.classes.rules_classifier import RulesClassifier
+from src.core.classes.file_manager import FileManager
 
 
 def setup_logging():
