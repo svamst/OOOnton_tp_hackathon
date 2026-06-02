@@ -1,6 +1,6 @@
 import logging
-from core.classes.email import Email
-from config import (
+from src.core.classes.email import Email
+from src.config import (
     KEYWORDS_CRITICAL,
     KEYWORDS_SPAM,
     KEYWORDS_ROUTINE
